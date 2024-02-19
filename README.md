@@ -1,8 +1,13 @@
-<b>Manideep Alimi - Portfolio</b>
+<b> Manideep Alimi - Porfolio </b>
 
 
+Want to use this repo ??
 
+
+just edit the details in the utils/data.ts
 ## Getting Started
+
+
 
 First, run the development server:
 
@@ -17,4 +22,5 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
 
