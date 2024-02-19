@@ -1,2 +1,1 @@
-# portfolio
-Manideep Alimi - Portfolio
+#Manideep Alimi - Portfolio
