@@ -51,28 +51,28 @@ export const BackgroundDetails:BackgroundProps= {
 
 export const projects : ProjectItemProps[] =[
   {
-    image:"/quiz.png",
+    image:"./quiz.png",
     title:"Quizzie",
     link:"https://github.com/mani818686/Quizzie",
     info:"Quizzie featuring creation, attempts, and results display, optimizing user experience with interactive quizzes and result reviews.",
     skills:["HTML","CSS","JS","Node.js","Express.js","MongoDB","Pug"]
   },
     {
-      image:"/ride.jpeg",
+      image:"./ride.jpeg",
       title:"Student Rides",
       link:"https://test81211.000webhostapp.com/",
       info:"Student Rides is a user-friendly application facilitating seamless ride-sharing among students, offering features like ride posting, requesting, and email notifications for ride updates",
       skills:["PHP","MySQL","PHPMailer","Javascript","HTML","CSS"]
     },
     {
-      image:"/ecommerce.png",
+      image:"./ecommerce.png",
       title:"Ecommerce Fashion",
       link:"https://mani818686.github.io/TIC-TAC-TOE/",
       info:"E-commerce fashion platform features a range of categories including clothing for men, women, and children, along accessories. Users can easily filter categories, view products, add items to their cart, and seamlessly place orders for a convenient shopping experience.",
       skills:["React","Node.js","Express.js","MongoDB"]
     },
     {
-      image:"/tic-tac-toe.png",
+      image:"./tic-tac-toe.png",
       title:"Tic-Tac-Toe",
       link:"https://mani818686.github.io/TIC-TAC-TOE/",
       info:"Tic-Tac-Toe offers interactive gameplay where users can challenge the computer.",
@@ -81,16 +81,16 @@ export const projects : ProjectItemProps[] =[
     
 ]
 export const skills: SkillsProps = {
-  'Programming Languages': ["C", "C++", "Java", "Python", "JavaScript", "Typescript"],
-  'Frontend Technologies': ["HTML", "CSS", "Bootstrap", "Material UI","JQuery","React.js","Next.js", "Angular", "Redux","React Flows"," Jest", "React Testing Library","Enzyme","Formik", "Yup","Styled Components"],
-  'Backend Technologies':["Node.js","Express.js","SpringBoot","Flask",],
+  Programming: ["C", "C++", "Java", "Python", "JavaScript", "Typescript"],
+  Frontend: ["HTML", "CSS", "Bootstrap", "Material UI","JQuery","React.js","Next.js", "Angular", "Redux","React Flows"," Jest", "React Testing Library","Enzyme","Formik", "Yup","Styled Components"],
+  Backend:["Node.js","Express.js","SpringBoot","Flask",],
   Database:["MySQL","PostgreSQL","MongoDB","SQLite"],
   Tools:["GitHub", "Git", "Visual Studio Code", "IntelliJ", "Postman", "Eclipse","Jupyter" ],
   Others:["Problem Solving","Data Structures & Algorithms","AWS","Docker","Selenium"]
 };
 
 export const about ={
-  "profile":"/profile.jpeg",
+  "profile":"./profile.jpeg",
   'linkedin':"https://www.linkedin.com/in/alimi-manideep/",
   "github":"https://github.com/mani818686",
   "email":"alimimanideep7@gmail.com",

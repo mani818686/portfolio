@@ -30,9 +30,9 @@ interface ProjectItemProps{
 }
 
 interface SkillsProps{
-    ['Programming Languages']:string[],
-    ['Frontend Technologies']:string[],
-    ['Backend Technologies']:string[],
+    Programming:string[],
+    Frontend:string[],
+    Backend:string[],
     Database?:string[],
     Tools?:string[],
     Others?:string[]

@@ -9,14 +9,14 @@ export const metadata: Metadata = {
 function Skills() {
   return (
     <div className="block-container">
-      <h1 className="mt-10 text-5xl mb-5">Skills</h1>
+      <h1 className="mt-10 text-4xl mb-5">Skills</h1>
       <div className="frontend">
         {Object.entries(skills).map(([key, value]) => {
           return (
             <div key={`section-${key}`}>
-              <div className="inline-flex items-center justify-center w-full">
-                <hr className="w-1/2 h-px my-2 bg-gray-200 border-0 " />
-                <span className="absolute px-3 font-medium text-grey -translate-x-1/2 bg-white left-1/2 dark:text-white dark:bg-gray-900">
+              <div className={`inline-flex items-center justify-center w-full`}>
+                <hr className="size-full md:w-1/2  h-px my-2 bg-gray-200 border-0 " />
+                <span className="absolute px-3 font-bold text-black text-center -translate-x-1/2 bg-white left-1/2">
                   {key}
                 </span>
               </div>
