@@ -4,6 +4,7 @@ import { NavItems } from '@/constants'
 import NavItem from './navItem'
 import { MdOutlineLightMode } from "react-icons/md";
 import Link from 'next/link';
+import { FaHome } from 'react-icons/fa';
 
 
 function Navbar() {
@@ -15,9 +16,10 @@ function Navbar() {
   }
 
   return (
-    <div className='h-15 border-b-2 border-bg-white flex p-4 justify-between shadow-sm'>
+    <div className='border-b-2 border-bg-white flex p-4 justify-between shadow-sm'>
       <div className='hidden sm:block no-underline text-2xl'><Link href={"/"}>Manideep Alimi</Link></div>
-      <div className="flex justify-between gap-5 md:gap-8">
+      <Link href={"/"}><FaHome className='block sm:hidden sm:mr-2' size={20}/> </Link>
+      <div className="flex justify-between gap-2.5 md:gap-8">
         { NavItems.map((item: NavItemProps) => {
           return (
             <NavItem key={`nav-item-${item.id}`} {...item} />

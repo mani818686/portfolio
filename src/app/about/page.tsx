@@ -21,14 +21,15 @@ function About() {
       <div className="info mx-10 md:mx-4 text-grey">University of Central Missouri </div>
       <div className="info mx-10 md:mx-4 text-grey flex"><IoLocation size={20} className='pt-1'/> Overland Park, Kansas </div>
       <div className="icons flex flex-wrap gap-6 mt-1 mb-1">
-      <Link className="no-underline" href={`mailto:${about.email}`}><IoMailOutline size={25}/></Link>
-      <Link className="no-underline" href={about.github}><FaGithub size={25}/></Link>
-      <Link className="no-underline" href={about.linkedin}><FaLinkedin size={25}/></Link>
-      <Link className="no-underline" href={`tel:${about.phone}`}><FaPhone size={25}/></Link>
+      <Link target="_blank"  className="no-underline" href={`mailto:${about.email}`}><IoMailOutline size={25}/></Link>
+      <Link target="_blank" className="no-underline" href={about.github}><FaGithub size={25}/></Link>
+      <Link target="_blank"  className="no-underline" href={about.linkedin}><FaLinkedin size={25}/></Link>
+      <Link target="_blank"  className="no-underline" href={`tel:${about.phone}`}><FaPhone size={25}/></Link>
 
       </div>
       <div className='flex mt-2'>
-        <Link className="bg-white border border-gray-300 text-grey focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2" href={about.resume}> <button type="button" className=" ">See Resume !</button></Link>
+      <Link className="bg-white border border-gray-300 text-grey focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2" href={"/background"}> <button type="button" className=" ">Experience</button></Link>
+        <Link target="_blank"  className="bg-white border border-gray-300 text-grey focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2" href={about.resume}> <button type="button" className=" ">Resume</button></Link>
       </div>
       </div>
       <div className="flex flex-col justify-center items-center">

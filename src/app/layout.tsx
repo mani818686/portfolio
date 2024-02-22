@@ -23,7 +23,7 @@ export default function RootLayout({
       <link rel="icon"  type="image" href="./portfolio.png"/>
       </head>
       <body>
-        <div className="home-container">
+        <div>
         <Navbar/>
         {children}
         </div>
