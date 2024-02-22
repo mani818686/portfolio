@@ -67,7 +67,7 @@ export const projects : ProjectItemProps[] =[
     {
       image:"./ecommerce.png",
       title:"Ecommerce Fashion",
-      link:"https://mani818686.github.io/TIC-TAC-TOE/",
+      link:"https://github.com/mani818686/ecommerce-fashion/",
       info:"E-commerce fashion platform features a range of categories including clothing for men, women, and children, along accessories. Users can easily filter categories, view products, add items to their cart, and seamlessly place orders for a convenient shopping experience.",
       skills:["React","Node.js","Express.js","MongoDB"]
     },
