@@ -6,7 +6,7 @@ export const BackgroundDetails: BackgroundProps = {
       Role: "Associate Software Engineer",
       responsibilities: [
         "Developed web pages using React.js, ensuring seamless integration with backend APIs",
-        "Wrote Unit testcases with coverege of 100% for entire project using React Testing Library, Jest",
+        "Wrote Unit testcases with coverage of 100% for entire project using React Testing Library, Jest",
         "Developed end points for different services using Node.js",
         "Addressed migration issues while migrating project from Heroku to AWS, ensuring a smooth deployment process ",
       ],
