@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://manideepalimi.me",
+  "homepage": "https://mani818686.github.io/portfolio/",
   "private": true,
   "scripts": {
     "dev": "next dev",
