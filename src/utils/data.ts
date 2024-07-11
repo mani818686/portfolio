@@ -13,7 +13,7 @@ export const BackgroundDetails: BackgroundProps = {
     },
     {
       Company: "MAQ Software",
-      Duration: "September 2022 - Febuary 2022",
+      Duration: "March 2022 - Febuary 2022",
       Role: "Associate Software Engineer",
       responsibilities: [
         "Designed and implemented responsive user interfaces with Angular, achieving a 15% increase in user satisfaction scores.",
