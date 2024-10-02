@@ -11,9 +11,9 @@ import { IoMdEye } from "react-icons/io";
 export default function Home() {
   return (
     <div className="px-4 home-container w-full flex justify-center items-center flex-col gap-4">
-      <Image className="rounded-full" src={about.profile} alt={"Profile"} width={200} height={120} />
+      {/* <Image className="rounded-full" src={about.profile} alt={"Profile"} width={200} height={120} /> */}
       <h1 className="mb-4 text-xl font-extrabold text-gray-900 dark:text-white md:text-4xl lg:text-5xl"><span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-sky-400">Manideep Alimi</span></h1>
-      <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Graduate in CS | Full Stack Developer @ Xebia</p>
+      <p className="text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Graduate in CS | Full Stack Developer</p>
       <div className="icons flex flex-wrap gap-6">
         <Link target="_blank"  className="no-underline" href={`mailto:${about.email}`}><IoMailOutline size={25} /></Link>
         <Link target="_blank" className="no-underline" href={about.github}><FaGithub size={25} /></Link>

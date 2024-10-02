@@ -21,6 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
       <link rel="icon"  type="image" href="./portfolio.png"/>
+      <meta name="robots" content="noindex"></meta>
       </head>
       <body>
         <div>

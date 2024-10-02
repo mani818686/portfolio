@@ -1,14 +1,25 @@
 export const BackgroundDetails: BackgroundProps = {
   Experience: [
     {
+      Company: "Ally Bank",
+      Duration: "August 2023 - Present",
+      Role: "Software Developer",
+      responsibilities: [
+        // "Developed web pages using React.js, ensuring seamless integration with backend APIs",
+        // "Wrote Unit testcases with test coverage of 100% for entire project using React Testing Library, Jest",
+        // "Developed end points for different services using Node.js",
+        // "Addressed migration issues while migrating project from Heroku to AWS, ensuring a smooth deployment process ",
+      ],
+    },
+    {
       Company: "Xebia",
       Duration: "March 2022 - July 2023",
       Role: "Associate Software Engineer",
       responsibilities: [
-        "Developed web pages using React.js, ensuring seamless integration with backend APIs",
-        "Wrote Unit testcases with test coverage of 100% for entire project using React Testing Library, Jest",
-        "Developed end points for different services using Node.js",
-        "Addressed migration issues while migrating project from Heroku to AWS, ensuring a smooth deployment process ",
+        // "Developed web pages using React.js, ensuring seamless integration with backend APIs",
+        // "Wrote Unit testcases with test coverage of 100% for entire project using React Testing Library, Jest",
+        // "Developed end points for different services using Node.js",
+        // "Addressed migration issues while migrating project from Heroku to AWS, ensuring a smooth deployment process ",
       ],
     },
     {
@@ -16,10 +27,10 @@ export const BackgroundDetails: BackgroundProps = {
       Duration: "September 2022 - Febuary 2022",
       Role: "Associate Software Engineer",
       responsibilities: [
-        "Designed and implemented responsive user interfaces with Angular, achieving a 15% increase in user satisfaction scores.",
-        "Implemented a microservices architecture using Node.js and Express, which notably enhanced API response time by 25% and reduced server load by 30%.",
-        "Led a cross-functional team in the successful implementation of a new feature using React and Redux, leading to a remarkable 20% surge in user engagement within the initial month.",
-        "Spearheaded the introduction of testing processes utilizing Jest and Enzyme, resulting in a 30% boost in test coverage and a 25% reduction in post-release defects.",
+        // "Designed and implemented responsive user interfaces with Angular, achieving a 15% increase in user satisfaction scores.",
+        // "Implemented a microservices architecture using Node.js and Express, which notably enhanced API response time by 25% and reduced server load by 30%.",
+        // "Led a cross-functional team in the successful implementation of a new feature using React and Redux, leading to a remarkable 20% surge in user engagement within the initial month.",
+        // "Spearheaded the introduction of testing processes utilizing Jest and Enzyme, resulting in a 30% boost in test coverage and a 25% reduction in post-release defects.",
       ],
     },
     {
@@ -27,8 +38,8 @@ export const BackgroundDetails: BackgroundProps = {
       Duration: "January 2021 - Febuary 2021",
       Role: "SDE Intern",
       responsibilities: [
-        "Developed a role-based quiz application, managing creation, attempts, and result display, statistics of users",
-        "Added a Summer note (Rich Editor) for Quiz questions",
+        // "Developed a role-based quiz application, managing creation, attempts, and result display, statistics of users",
+        // "Added a Summer note (Rich Editor) for Quiz questions",
       ],
     },
   ],

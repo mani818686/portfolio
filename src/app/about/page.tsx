@@ -15,7 +15,7 @@ function About() {
   return (
     <div className='block-container'>
       <div className='top-section mt-10 flex flex-col justify-center items-center'>
-      <Image className="rounded-full" src={about.profile} alt={"Profile"} width={200} height={120}/>
+      {/* <Image className="rounded-full" src={about.profile} alt={"Profile"} width={200} height={120}/> */}
       <div className="title text-2xl font-semibold mt-2"><h1>Manideep Alimi</h1></div>
       <div className="info text-base mx-10 md:mx-4 text-grey">Graduate Student in CS </div>
       <div className="info mx-10 md:mx-4 text-grey">University of Central Missouri </div>
