@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://www.manideepalimi.me",
+  "homepage": "https://www.manideepalimi.tech",
   "private": true,
   "scripts": {
     "dev": "next dev",
