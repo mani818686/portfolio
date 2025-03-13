@@ -18,8 +18,8 @@ function About() {
       {/* <Image className="rounded-full" src={about.profile} alt={"Profile"} width={200} height={120}/> */}
       <div className="title text-2xl font-semibold mt-2"><h1>Manideep Alimi</h1></div>
       <div className="info text-base mx-10 md:mx-4 text-grey">Graduate Student in CS </div>
-      <div className="info mx-10 md:mx-4 text-grey">University of Central Missouri </div>
-      <div className="info mx-10 md:mx-4 text-grey flex"><IoLocation size={20} className='pt-1'/> Overland Park, Kansas </div>
+      {/* <div className="info mx-10 md:mx-4 text-grey">University of Central Missouri </div> */}
+      <div className="info mx-10 md:mx-4 text-grey flex"><IoLocation size={20} className='pt-1'/> Dallas, Texas </div>
       <div className="icons flex flex-wrap gap-6 mt-3 mb-3">
       <Link target="_blank"  className="no-underline" href={`mailto:${about.email}`}><IoMailOutline size={25}/></Link>
       <Link target="_blank" className="no-underline" href={about.github}><FaGithub size={25}/></Link>

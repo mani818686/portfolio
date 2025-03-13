@@ -4,43 +4,19 @@ export const BackgroundDetails: BackgroundProps = {
       Company: "Ally Bank",
       Duration: "August 2023 - Present",
       Role: "Software Developer",
-      responsibilities: [
-        // "Developed web pages using React.js, ensuring seamless integration with backend APIs",
-        // "Wrote Unit testcases with test coverage of 100% for entire project using React Testing Library, Jest",
-        // "Developed end points for different services using Node.js",
-        // "Addressed migration issues while migrating project from Heroku to AWS, ensuring a smooth deployment process ",
-      ],
+      responsibilities: [],
     },
     {
       Company: "Xebia",
       Duration: "March 2022 - July 2023",
       Role: "Associate Software Engineer",
-      responsibilities: [
-        // "Developed web pages using React.js, ensuring seamless integration with backend APIs",
-        // "Wrote Unit testcases with test coverage of 100% for entire project using React Testing Library, Jest",
-        // "Developed end points for different services using Node.js",
-        // "Addressed migration issues while migrating project from Heroku to AWS, ensuring a smooth deployment process ",
-      ],
+      responsibilities: [],
     },
     {
       Company: "MAQ Software",
       Duration: "September 2022 - Febuary 2022",
       Role: "Associate Software Engineer",
-      responsibilities: [
-        // "Designed and implemented responsive user interfaces with Angular, achieving a 15% increase in user satisfaction scores.",
-        // "Implemented a microservices architecture using Node.js and Express, which notably enhanced API response time by 25% and reduced server load by 30%.",
-        // "Led a cross-functional team in the successful implementation of a new feature using React and Redux, leading to a remarkable 20% surge in user engagement within the initial month.",
-        // "Spearheaded the introduction of testing processes utilizing Jest and Enzyme, resulting in a 30% boost in test coverage and a 25% reduction in post-release defects.",
-      ],
-    },
-    {
-      Company: "Being Zero Pvt. Ltd",
-      Duration: "January 2021 - Febuary 2021",
-      Role: "SDE Intern",
-      responsibilities: [
-        // "Developed a role-based quiz application, managing creation, attempts, and result display, statistics of users",
-        // "Added a Summer note (Rich Editor) for Quiz questions",
-      ],
+      responsibilities: [],
     },
   ],
   Education: [
@@ -48,11 +24,6 @@ export const BackgroundDetails: BackgroundProps = {
       College: "University of Central Missouri",
       level: "Master's in Computer Science",
       Duration: "August 2023 - December 2024",
-    },
-    {
-      College: "CMR College of Engineering and Technology",
-      level: "B.Tech in Computer Science & Engineering",
-      Duration: "July 2018 - May 2022",
     },
   ],
 };
@@ -108,7 +79,7 @@ export const skills: SkillsProps = {
     "Yup",
     "Styled Components",
   ],
-  Backend: ["Node.js", "Express.js", "NestJS","SpringBoot", "Flask", "Django",],
+  Backend: ["Node.js", "Express.js", "NestJS", "SpringBoot", "Flask", "Django"],
   Database: ["MySQL", "PostgreSQL", "MongoDB", "SQLite"],
   Tools: [
     "GitHub",
@@ -125,12 +96,12 @@ export const skills: SkillsProps = {
     "AWS",
     "Docker",
     "Selenium",
-    "REST APIs", 
+    "REST APIs",
     "Agile methodology",
     "Objected Oriented Programming",
     "JWT",
     "Chart.js",
-    "AG Grid"
+    "AG Grid",
   ],
 };
 
@@ -143,7 +114,7 @@ export const about = {
     "https://drive.google.com/file/d/1au0ykjTI0Ij5EedPaoefg4USRLjn25Jn/view?usp=sharing",
   phone: "+17203355299",
   info: [
-    "Experienced Full Stack Developer proficient in web development technologies such as React.js, Node.js, Next.js., Angular",
+    "Experienced Full Stack Developer proficient in web development technologies such as React.js, Node.js, Next.js, Angular",
     "Strong foundation in software engineering principles, with a focus on building scalable and efficient applications",
     "I'm passionate about creating software products.",
     "Loves to solve problems in web development.",
